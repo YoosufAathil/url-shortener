@@ -2,7 +2,7 @@
   "name": "url-shortner-api",
   "version": "1.0.0",
   "description": "This project contains url shortner apis",
-  "main": "server.js",
+  "main": "dist/server.js",
   "scripts": {
     "build": "npx tsc",
     "start": "npx tsc && node ./dist/server.js",
