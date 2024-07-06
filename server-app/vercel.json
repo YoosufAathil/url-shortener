@@ -6,6 +6,7 @@
       "use": "@vercel/node"
     }
   ],
+  "outputDirectory": "dist",
   "buildCommand": "chmod +x ./node_modules/.bin/tsc && npm run build",
   "routes": [
     {
