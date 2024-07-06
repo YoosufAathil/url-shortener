@@ -7,7 +7,7 @@ import shortUrl from "./routes/shortUrl";
 dotenv.config();
 connectDb();
 
-const port = process.env.PORT || 5001;
+const port = process.env.PORT;
 
 const app = express();
 app.use(express.json());
