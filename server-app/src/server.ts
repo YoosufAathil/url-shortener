@@ -23,7 +23,9 @@ app.use(
 );
 
 app.use("/api/", shortUrl);
-
+app.get("/", (req, res) => {
+  res.send("API is running...");
+});
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
