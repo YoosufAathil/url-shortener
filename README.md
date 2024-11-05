@@ -12,7 +12,7 @@ This is a full-stack URL Shortener application built using the MERN stack (Mongo
 
 ## Demo
 
-[Live Demo](#) - _(Replace with your live demo link)_
+[Live Demo](https://url-shortener-one-mauve.vercel.app/)  
 
 ## Installation
 
