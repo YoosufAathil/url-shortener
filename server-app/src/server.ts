@@ -19,7 +19,7 @@ app.use(
   })
 );
 
-app.use("/api/shorturl", shortUrl);
+app.use("/api/", shortUrl);
 app.get("/", (req, res) => {
   res.send("API is running...");
 });
